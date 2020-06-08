@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Agenda - JS-Beginners</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Sublime Text3, SASS">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- CUSTOM PAGE STYLES -->
+	<link rel="stylesheet" type="text/css" href="../../outfit/css/master.css">
+	<link rel="stylesheet" type="text/css" href="../../outfit/css/agenda.css">
+	<style type="text/css">
+		.iep_syllabus_themes .hours::after{
+			content: ' ч.';
+		}
+	</style>
+	<base target="_blank">
+</head>
+<body class="background_gradient_left_right">
+<header>
+	<h2>JavaScript</h2>
+	<h3>Beginners Course</a></h3>
+	<!-- <h4>Fundamentals</h4> -->
+</header>
+<!-- <article class="iep_course_about"><h4>Course About</h4>
+
+</article> -->
+<article class="iep_syllabus">
+	<h4 class="iep_syllabus_title">Учебна програма:
+	<span class="show_hide_buttons">( <span class="btn_show" onclick="showAllNodes( document.getElementsByClassName('iep_syllabus_sub_themes'))">Покажи под-темите</span>
+	<span class="btn_hide"  onclick="hideAllNodes( document.getElementsByClassName('iep_syllabus_sub_themes'))">Скрий под-темите</span> )</span>
+	</h4>
+	<ol class="iep_syllabus_themes">
+		<li id="JS_Intro"><!-- <h3><a class="ready" href="https://drive.google.com/open?id=0B78rPN4WCkJENW9ZckJiZUQ1OEE" title="PDF"><i class="fa fa-file-pdf-o"></i></a><span class="label arrow_down">Въведение в JavaScript</span><span class="hours">4</span></h3> -->
+			<h3><a class="ready" href="../themes/beginners/JS_Intro/JS_Intro.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Въведение в JavaScript</span><span class="hours">4</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Защо се създава?</li>
+				<li>Какво е JavaScript? А EcmaScript?</li>
+				<li>Защо не бива да бъркаме JavaScript с Java.</li>
+				<li>Какво можем да правим с JavaScript?</li>
+				<li>Как и кога браузърът изпълнява JavaScript.</li>
+				<li>Къде и как да включим нашия скрипт?</li>
+			</ol>
+		</li>
+		<!-- <a class="ready" href="https://drive.google.com/open?id=0B78rPN4WCkJEX3ozb1Q1eEg0Mmc" title="slides"><i class="fa fa-file-pdf-o"></i> -->
+		<li id="JS_BasicSyntax_1"><h3><a class="ready" href="../themes/beginners/JS_BasicSyntax_1/JS_BasicSyntax_1.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">JavaScript - основни синтактични елементи.</span><span class="hours">12</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Структура на програмата.</li>
+				<li>Променливи (Variables)</li>
+				<li>Прости типове данни (Primitive types)</li>
+				<li>Коментари и добри практики за тяхното използване.</li>
+				<li>Оператори.</li>
+				<li>Условни изрази.</li>
+				<li>Цикли.</li>
+			</ol>
+		</li>
+		<li id="JS_Arrays"><h3><a class="ready" href="../themes/beginners/JS_Arrays/JS_Arrays.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Javascript: масиви и операции с тях.</span><span class="hours">4</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Дефиниране на масив.</li>
+				<li>Достъп до елементите</li>
+				<li>Масива като обект</li>
+				<li>Основни операции с едномерни и двумерни масиви</li>
+			</ol>
+		</li>
+		<li id="JS_Functions"><h3><a class="ready" href="../themes/beginners/JS_Functions/JS_Functions.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Javascript: функции.</span><span class="hours">6</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Какво са функциите в JS? За какво се използват?</li>
+				<li>Дефиниция на функция (function declaration vs function expression)</li>
+				<li>Извикване на функция. Предаване на аргументи. Връщане на резултат</li>
+				<li>Function Scope. Shadowing.</li>
+				<li>Анонимни функции. IIFE.</li>
+				<li>Hoisting.</li>
+				<li>Създаване на семпъл калкулатор.</li>
+				<li>Игра: Морски шах</li>
+			</ol>
+		</li>
+		<li><h3><a class="ready" href="../themes/beginners/JS_Objects/JS_Objects.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">JavaScript - обекти</span><span class="hours">6</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Какво представлява обектът?</li>
+				<li>Създаване на единичен обект чрез литерал</li>
+				<li>Достъп до свойствата на обект (dot и square brackets notation).</li>
+				<li>Създаване на множество еднотипни обекти чрез Factory и Constructor функция</li>
+			</ol>
+		</li>
+		<li id="JS_BuiltInObjects"><h3><a class="ready" href="../themes/beginners/JS_BuiltInObjects/JS_BuiltInObjects.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Стандартни вградени обекти в EcmaScript</span><span class="hours">2</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Primitive object wrappers</li>
+				<li>обекта Math </li>
+				<li>обекта Date</li>
+				<li>обекта Object</li>
+				<li>Игра: преди колко дни съм роден?</li>
+			</ol>
+		</li>
+
+		<li id="JS_DOM_BOM"><h3><a class="ready" href="../themes/beginners/JS_DOM_BOM/JS_DOM_BOM.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">HTML DOM, BOM - или как JavaScript взаимодейства с браузера.</span><span class="hours">4</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Накратко за <code class="kw">BOM</code> и <code class="kw">DOM</code>.</li>
+				<li>Достъпване на HTML елементите чрез JavaScript и <code class="kw">DOM</code>.</li>
+				<li>Промяна на съдържанието на елементите.</li>
+				<li>Създаване и изтриване на HTML елементи.</li>
+				<li>Игра: познай числото!</li>
+			</ol>
+		</li>
+		<!-- <li><h3><a class="nonready" href="../themes/slides/how_a_web_site_works.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Как елегантно да се справим с потенциалните грешките в JavaScript</span><span class="hours">2</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Изрази <code class="kw">try</code> и <code class="kw">catch.</code></li>
+				<li>Обработка на изключения: <code class="kw">throw exception.</code></li>
+				<li>Валидиране на HTML форми със JavaScript.</li>
+			</ol>
+		</li> -->
+		<li><h3><a class="ready" href="../themes/beginners/JS_Events/JS_Events.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">JavaScript и HTML DOM Events</span><span class="hours">4</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>За какво и как се използват <code class="kw">event handlers.</code></li>
+				<li>Mouse events.</li>
+				<li>Keyboard Events</li>
+				<li>Frame/Object Events</li>
+				<li>Form Events</li>
+				<li>Drag Events</li>
+				<!-- <li>Игра: избягай от чудовището!</li> -->
+			</ol>
+		</li>
+		<li><h3><a class="ready" href="../themes/beginners/JS_StylingElements/JS_StylingElements.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Как да променяме CSS свойствата на елементите чрез JavaScript</span><span class="hours">1</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li><code class="kw">HTML DOM Style Object</code></li>
+				<li>element.style property</li>
+				<li>window.getComputedStyle()</li>
+				<li>Промяна на стил чрез задаване на предефиниран клас</li>
+			</ol>
+		</li>
+		<li><h3><a class="ready" href="../themes/beginners/JS_TimersAndAsync/JS_TimersAndAsync.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Tаймери в JavaScript </span><span class="hours">1</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Синхронен и асинхронен JavaScript - кратко въведение.</li>
+				<li>setTimeout()</li>
+				<li>setInterval()</li>
+				<li>clearTimeout()</li>
+				<li>често срещани проблеми и методи за тяхното решаване</li>
+			</ol>
+		</li>
+		<li><h3><a href="../themes/beginners/realWorldExamples/realWorldExamples.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Класически компоненти при създаване на Уеб Старница/примери от реални проекти</span><span class="hours">2</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Менюта и навигация:
+					<ol style="margin-left: 2em; list-style-type: initial;">
+						<li>Smooth Scrolling (със или без анимация)</li>
+						<li>Change Header opacity on scroll</li>
+					</ol>
+				</li>
+				<li>Галерия със снимки и слайд ефекти:
+					<ol style="margin-left: 2em; list-style-type: initial;">
+						<li>Image Overlay Effects</li>
+						<li>Slider With Interval And Clearing</li>
+					</ol>
+				</li>
+				<li>Simple Accordeon effect with Pure JS and CSS animation</li>
+			</ol>
+		</li>
+		<!-- <li><h3><a class="nonready" href="../themes/slides/Practical_guide_for_creating_website.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Създаване на цялостен <code class="kw">front-end</code> на Уеб сайт (върху собствен проект или електронен магазин)</span><span class="hours">4</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Оформление на менютата с CSS3.</li>
+				<li>Естетична галерия за продуктите чрез HTML5/CSS3/JavaScript</li>
+				<li>Изготвяне на форми за регистрация и потребителски профил.</li>
+			</ol>
+		</li> -->
+		<li id="CourseEnd"><h3><a class="ready" href="../themes/beginners/CourseEnd/CourseEnd.html" title="slides"><i class="fa fa-file-powerpoint-o"></i></a><span class="label arrow_down">Вместо заключение</span><span class="hours">0</span></h3>
+			<ol class="iep_syllabus_sub_themes">
+				<li>Тенденции в развитието на Front-End технологиите. Как да продължим към advanced ниво.</li>
+			</ol>
+		</li>
+	</ol>
+	<!-- <div>
+		<a href="../readings/beginners/UsefulResources.html" title="Свободни ресурси"><i class="fa fa-link"></i></a>
+		<h4 class="total_hours">Общо часове: <span class="total_hours_value">0</span></h4>
+	</div> -->
+</article>
+<article id="iep_course_project">
+	<h4>Курсов проект</h4>
+	<p class="TODO">По време на обучението, курсистите ще имат възможността да разработят самостоятелно цялостния front-end на Уеб сайт (по зададена или <a href="../portfolio/index.html" title="">избрана от тях тематика</a>) като курсов проект. Акцентът отново ще бъде поставен върху качествения код, съобразен с актуалните стандарти( HTML5/CSS3/JavaScript (ES6 && Beyond) ), съвместимостта (cross browser compatibility) и добрите SEO практики.</p>
+</article>
+<!--
+<article id="ip_course_about">
+	<section><h4>За кого е предназначен курса:</h4>
+	</section>
+	<section><h4>Какво ще научите в курса</h4>
+	</section>
+</article> -->
+<footer><div class="license left">
+		<p><span>Iva E. Popova.</span>, 2015 - 2020.
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
+		</div>
+		<div class="right">Created for <a href="http://progressbg.net/kurs-po-web-design/">ProgressBG JavaScript -Beginnners</a></div>
+</footer>
+<script type="text/javascript" src="../../outfit/js/agenda.js"></script>
+<!-- <script type="text/javascript">init();</script> -->
+</body>
+</html>

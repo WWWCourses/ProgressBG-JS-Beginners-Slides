@@ -1,0 +1,22 @@
+{
+    "spellright.language": [
+        "Bulgarian",
+        "English (American)"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "python",
+        "javascript",
+        "html"
+    ],
+    // "spellright.spellContext": "body comments strings",
+    "spellright.spellContextByClass": {
+        "latex": "body",
+        "cpp": "comments",
+        "python": "strings",
+        "javascript": "body comments strings"
+    },
+    "liveServer.settings.port": 5501
+}
