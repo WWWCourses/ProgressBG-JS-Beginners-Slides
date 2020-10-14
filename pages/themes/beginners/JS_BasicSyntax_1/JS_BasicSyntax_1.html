@@ -822,7 +822,8 @@
 	</section>
 </section>
 
-<section id="ConditionalStatements"><h2>Условни изрази (Conditional statements)</h2>
+<section id="ConditionalStatements"><h1>Условни изрази (Conditional statements)</h1></section>
+<section><h2>Условни изрази (Conditional statements)</h2>
 	<section><h3><code>if</code> statement</h3>
 		<pre style=" font-size: .5em;"><code rel="Syntax">
 			if(условие){
@@ -908,18 +909,8 @@
 	</section>
 </section>
 
+<section id="CycleOperators"><h1>Цикли (Loops/Iteration Statements)</h1></section>
 <section id="CycleOperators"><h2>Цикли (Loops/Iteration Statements)</h2>
-	<section><h3><code>for</code> Statement: алгоритъм</h3>
-		<pre><code rel="Syntax">
-			for (init; condition; increment) {
-				block
-			}
-		</code></pre>
-		<img src="images/for_algorithm.png">
-	</section>
-	<section><h3><code>for</code> Statement: пример и program flow diagram</h3>
-		<a href="images/JS_Loops.png"><img src="images/JS_Loops.png"></a>
-	</section>
 	<section><h3><code>for</code> Statement: синтаксис</h3>
 		<pre style="width: 70vw;"><code rel="Syntax">
 			for (init; condition; increment) {
@@ -936,9 +927,20 @@
 			<dt>3. increment: изпълнява се след блока. Обикновено тук се променят променливите, които контролират цикъла.</dt>
 		</dl>
 	</section>
+	<section><h3><code>for</code> Statement: алгоритъм</h3>
+		<pre><code rel="Syntax">
+			for (init; condition; increment) {
+				block
+			}
+		</code></pre>
+		<img src="images/for_algorithm.png">
+	</section>
+	<section><h3><code>for</code> Statement: пример и program flow diagram</h3>
+		<a href="images/JS_Loops.png"><img src="images/JS_Loops.png"></a>
+	</section>
 	<section><h3><code>for</code> Statement: пример 1</h3>
 		<pre><code rel="JS">
-			for (var i = 0; i < 5; i++) {
+			for (let i = 0; i < 5; i++) {
 				console.log("i=" + i);
 			}
 		</code></pre>
@@ -954,7 +956,7 @@
 	<section><h3><code>for</code> Statement: пример 2</h3>
 		<pre><code rel="JS">
 			// i е четно число, в интервала [0-10]
-			for (var i = 2; i <= 10; i = i+2){
+			for (let i = 2; i <= 10; i = i+2){
 				console.log("i=", i);
 			}
 		</code></pre>
@@ -970,11 +972,11 @@
 	<section><h3><code>for</code> Statement: пример 3</h3>
 		<pre><code rel="JS">
 			// create the list element
-			var listNode = document.createElement(listType);
+			let listNode = document.createElement(listType);
 
 			//create list items
-			for (var i = 1; i <= listItemsCount; i++){
-				var listItem = document.createElement('li');
+			for (let i = 1; i <= listItemsCount; i++){
+				let listItem = document.createElement('li');
 				listItem.innerHTML = 'Item '+ i;
 				listNode.appendChild(listItem);
 			}
@@ -987,8 +989,8 @@
 	<section><h3><code>for</code> Statement: пример 4</h3>
 		<pre><code rel="JS">
 			// half tree print
-			var treeDeep = 5;
-			for (var i = 1; i <= treeDeep; i++) {
+			let treeDeep = 5;
+			for (let i = 1; i <= treeDeep; i++) {
 				console.log("*".repeat(i));
 			}
 		</code></pre>
