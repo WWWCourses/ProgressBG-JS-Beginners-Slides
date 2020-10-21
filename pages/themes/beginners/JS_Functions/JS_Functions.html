@@ -313,6 +313,7 @@
 		<dl class="fa" style="font-size: .9em">
 			<dt>Тялото на всяка една функция формира <span class="note">local scope.</span></dt>
 			<dt>Всяка променлива, декларирана с <span class="note">var, let или const</span>, в тялото на една функция се нарича <span class="note">локална</span> и е видима само в тялото на функцията (не може да бъде достъпена извън тялото на функцията)</dt>
+			<dt>Параметрите на една функция са също локални променливи!</dt>
 		</dl>
 		<pre><code rel="JS">
 			function f(){
@@ -422,9 +423,9 @@
   </section>
   <section><h3><code>let/const</code> vs. <code>var</code>: redeclaring</h3>
 	  <dl class="fa">
-		  <dt>Друга разлика между <code>let/cont</code> и <code>var</code> е че ако една променлива вече е декларирана, то при повторна декларация (redeclaring) в съшия скоуп чрез <code>let</code> или <code>const</code> ще възникне грешка.</dt>
-		  <dt>При редеклариране чрез <code>var</code> нe би възникнала грешка</dt>
-		  <dt class="note">Дoбра практика е да предпочитаме използването на <code>let/const</code> за деклариране на променливи, вместо <code>var</code>!</dt>
+		  <dt>Друга разлика между <code>let/cont</code> и <code>var</code> е че ако една променлива вече е декларирана, то при повторна декларация (re-declaring) в съшия скоуп чрез <code>let</code> или <code>const</code> ще възникне грешка.</dt>
+		  <dt>При ре-деклариране чрез <code>var</code> нe би възникнала грешка</dt>
+		  <dt class="note">Добра практика е да предпочитаме използването на <code>let/const</code> за деклариране на променливи, вместо <code>var</code>!</dt>
 	  </dl>
   </section>
   <section><h3>Особености на <code>const</code></h3>
